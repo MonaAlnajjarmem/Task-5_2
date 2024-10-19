@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.im {
+    background-image: url("./../Image/ai-generated-8746437_1920.jpg");
+    opacity: 5;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second {
+    width: 40%;
+    text-align: center;
+    border: 2px solid rgba(0, 0, 0, 0.229);
+    background-color: rgba(0, 0, 0, 0.499);
+}
+
+.result h1 {
+    text-align: center;
+    padding: 10px;
+    color: palevioletred;
+}
+
+#number {
+    border-radius: 15px;
+    background-color: palevioletred;
+    border: 2px solid mediumvioletred;
+    color: white;
+height: 35px;
+}
+
+.container {
+    margin: 20px;
+    font-size: large;
+    text-align: center;
+    color: antiquewhite;
+}
+
+select {
+    background-color: antiquewhite;
+    color: mediumvioletred;
+    width: 120px;
+    font-size: 18px;
+    border-radius: 15px;
+    padding: 3px 7px;
+    border: 2px solid mediumvioletred;
+    margin: 20px;
+}
+
+.calculate {
+    margin-top: 20px;
+    width: 80px;
+    padding: 7px;
+    border-radius: 15px;
+    background-color: palevioletred;
+    border: 2px solid mediumvioletred;
+
+    color: white;
+}
+.switch{
+    margin-right: 7px;
+    width: 60px;
+
+    padding: 7px;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    border: 2px solid mediumvioletred;
+}
+
+.btn:hover .stars {
+    display: block;
+    box-shadow: (0 0 10px #fffdef);
+}

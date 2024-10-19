@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Style/style.css">
+</head>
+
+<body>
+    <div class="im">
+        <div class="second">
+            <div class="result">
+                <h1>Result is: <span class="resultSpan">0</span></h1>
+            </div>
+
+            <div class="container">
+                <div class="">
+                    <label for="number">Enter the number you want to transfer:</label>
+                    <input type="number" class="form-control first-number" id="number">
+                </div>
+                <div class="">
+                    <label for="from" class="form-label">From</label>
+                    <select class="form-control operator" id="from">
+                        <option value="kilometers">km</option>
+                        <option value="cm">cm</option>
+                        <option value="meters">m</option>
+                    </select>
+                    <button type="button" class="btn switch"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="mediumvioletred" class="bi bi-arrow-left-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 11.5a.5.5 0 0 0 .5.5h11.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 11H1.5a.5.5 0 0 0-.5.5m14-7a.5.5 0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H14.5a.5.5 0 0 1 .5.5"/>
+                      </svg></button>
+
+                    <label for="to" class="form-label">To</label>
+                    <select class="form-control TO" id="to">
+                        <option value="kilometers">km</option>
+                        <option value="cm">cm</option>
+                        <option value="meters">m</option>
+                    </select>
+                </div>
+                <button type="button" class="btn  calculate">Calculate</button>
+                <!-- Changed type to button -->
+            </div>
+        </div>
+    </div>
+    <script src="./javascript/java.js">
+
+    </script>
+</body>
+
+</html>
